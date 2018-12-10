@@ -78,6 +78,7 @@ export default {
   methods: {
     navNameSave (navName) {
       this.$store.dispatch('setNavName', navName)
+      window.scrollTo(0, 660)
     }
   }
 }
